@@ -1,3 +1,5 @@
+allow_k8s_contexts('gke_fe-cpage_us-central1_beta4')
+
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.tap.amer.end2end.link/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
